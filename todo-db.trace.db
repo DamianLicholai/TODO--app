@@ -1,0 +1,28 @@
+2021-11-21 16:05:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "TASKS" nie istnieje
+Table "TASKS" not found; SQL statement:
+insert into tasks (id, description, done) values (null, ?, ?) [42102-200]
+2021-11-21 16:05:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "TASKS" nie istnieje
+Table "TASKS" not found; SQL statement:
+insert into tasks (id, description, done) values (null, ?, ?) [42102-200]
+2021-11-21 16:05:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "TASKS" nie istnieje
+Table "TASKS" not found; SQL statement:
+insert into tasks (id, description, done) values (null, ?, ?) [42102-200]
+2021-11-21 16:05:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "TASKS" nie istnieje
+Table "TASKS" not found; SQL statement:
+insert into tasks (id, description, done) values (null, ?, ?) [42102-200]
+2021-11-21 16:05:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "TASKS" nie istnieje
+Table "TASKS" not found; SQL statement:
+insert into tasks (id, description, done) values (null, ?, ?) [42102-200]
+2021-11-21 16:05:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "TASKS" nie istnieje
+Table "TASKS" not found; SQL statement:
+insert into tasks (id, description, done) values (null, ?, ?) [42102-200]
+2021-11-21 16:05:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "TASKS" nie istnieje
+Table "TASKS" not found; SQL statement:
+insert into tasks (id, description, done) values (null, ?, ?) [42102-200]
