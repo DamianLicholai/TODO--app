@@ -14,7 +14,7 @@ import java.util.Set;
 public class TaskGroup {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @NotBlank(message = "Tasks group's description must be not null")
     private String description;
@@ -24,6 +24,17 @@ public class TaskGroup {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "group")
     private Set<Task> tasks;
 
+    @ManyToOne
+    @JoinColumn(name = "project_id")
+    private Projects projects;
+
+    public Projects getProjects() {
+        return projects;
+    }
+
+    public void setProjects(Projects projects) {
+        this.projects = projects;
+    }
 
     public TaskGroup() {
     }
@@ -56,7 +67,12 @@ public class TaskGroup {
         return tasks;
     }
 
-     void setTasks(Set<Task> tasks) {
+     public void setTasks(Set<Task> tasks) {
+        this.tasks = tasks;
+    }
+
+    public TaskGroup(String description, Set<Task> tasks) {
+        this.description = description;
         this.tasks = tasks;
     }
 }

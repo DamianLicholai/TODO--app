@@ -1,0 +1,1 @@
+alter table project_steps alter column days_to_deadline int;
